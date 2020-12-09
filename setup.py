@@ -157,9 +157,10 @@ setup_args['extras_require'] = {
     'test': [
         'pytest>=6.0',
         'pytest-cov',
-        'pytest-tornasync',
         'pytest-console-scripts',
         'pytest-check-links',
+        'pytest-jupyter',
+        'pytest-jupyter[server]',
         'requests',
         'wheel',
         'virtualenv'
@@ -187,10 +188,7 @@ setup_args['entry_points'] = {
         'jupyter-labextension = jupyterlab.labextensions:main',
         'jupyter-labhub = jupyterlab.labhubapp:main',
         'jlpm = jupyterlab.jlpmapp:main',
-    ],
-    'pytest11': [
-        'pytest_jupyterlab = jupyterlab.pytest_plugin'
-    ],
+    ]
 }
 
 
