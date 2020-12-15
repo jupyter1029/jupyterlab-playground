@@ -147,8 +147,8 @@ setup_args['install_requires'] = [
     'tornado>=6.1.0',
     'jupyter_core',
     'jupyterlab_server~=2.0.0rc8',
-    'jupyter_server~=1.1.0',
-    'nbclassic~=0.2.0',
+    'jupyter_server~=1.1',
+    'nbclassic~=0.2',
     'jinja2>=2.10'
 ]
 
