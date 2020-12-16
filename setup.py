@@ -155,7 +155,7 @@ setup_args['install_requires'] = [
 
 setup_args['extras_require'] = {
     'test': [
-        'pytest>=6.0',
+        'pytest',
         'pytest-cov',
         'pytest-console-scripts',
         'pytest-check-links',
