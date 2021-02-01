@@ -19,6 +19,7 @@ mkdir ~/.jupyter
 pip install -q --upgrade pip --user
 pip --version
 pip install jupyter_packaging
+pip install git+https://github.com/jupyter1029/jupyter_server-playground.git@starterapp#egg=jupyter_server
 # Show a verbose install if the install fails, for debugging
 pip install -e ".[test]" || pip install -v -e ".[test]"
 jlpm versions
